@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-CSharp-firstpass.csproj", "{AC467D08-A165-23C3-C858-30BD440F38BB}"
+EndProject
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-CSharp.csproj", "{6CB9435B-C119-B710-47EF-0CBD9818520D}"
+EndProject
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-CSharp-Editor.csproj", "{132E6408-0FA6-C3DA-48A8-37FA3D0134DE}"
+EndProject
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-UnityScript-firstpass.unityproj", "{FDB96D91-031B-FC36-D3CC-C4369D94463F}"
+EndProject
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-UnityScript.unityproj", "{A19D6D56-306E-A663-4E71-5C9F1252BEFC}"
+EndProject
+Project("{4D6BFCE7-C3D0-1DEF-4625-E405087939ED}") = "Monopoly", "Assembly-UnityScript-Editor.unityproj", "{4309E340-9932-EB71-0028-4ACA543550BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC467D08-A165-23C3-C858-30BD440F38BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC467D08-A165-23C3-C858-30BD440F38BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC467D08-A165-23C3-C858-30BD440F38BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC467D08-A165-23C3-C858-30BD440F38BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB9435B-C119-B710-47EF-0CBD9818520D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB9435B-C119-B710-47EF-0CBD9818520D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB9435B-C119-B710-47EF-0CBD9818520D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB9435B-C119-B710-47EF-0CBD9818520D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132E6408-0FA6-C3DA-48A8-37FA3D0134DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132E6408-0FA6-C3DA-48A8-37FA3D0134DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132E6408-0FA6-C3DA-48A8-37FA3D0134DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132E6408-0FA6-C3DA-48A8-37FA3D0134DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB96D91-031B-FC36-D3CC-C4369D94463F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB96D91-031B-FC36-D3CC-C4369D94463F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB96D91-031B-FC36-D3CC-C4369D94463F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB96D91-031B-FC36-D3CC-C4369D94463F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19D6D56-306E-A663-4E71-5C9F1252BEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19D6D56-306E-A663-4E71-5C9F1252BEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19D6D56-306E-A663-4E71-5C9F1252BEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19D6D56-306E-A663-4E71-5C9F1252BEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4309E340-9932-EB71-0028-4ACA543550BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4309E340-9932-EB71-0028-4ACA543550BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4309E340-9932-EB71-0028-4ACA543550BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4309E340-9932-EB71-0028-4ACA543550BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

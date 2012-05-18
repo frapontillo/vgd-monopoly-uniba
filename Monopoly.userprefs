@@ -1,0 +1,44 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\GameManager.cs">
+    <Files>
+      <File FileName="Assets\src\GUIManager.cs" Line="177" Column="79" />
+      <File FileName="Assets\src\GameManager.cs" Line="676" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="src" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="src" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="Z:\Workspace\Monopoly\Assets\GAME\LocalBuildingCompany.cs" line="88" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\GAME\Player.cs" line="93" offsetX="804" offsetY="1264" expression="relGroup" liveUpdate="False" />
+    <Watch file="Assets\GAME\LocalBuildingCompany.cs" line="46" offsetX="543" offsetY="630" expression="curHouse" liveUpdate="False" />
+    <Watch file="Assets\GAME\LocalBuildingCompany.cs" line="15" offsetX="634" offsetY="196" expression="curHouse" liveUpdate="False" />
+    <Watch file="Assets\GAME\LocalBuildingCompany.cs" line="15" offsetX="634" offsetY="196" expression="curHouse" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

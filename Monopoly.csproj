@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{921AD3FD-4C4E-88A8-ACC7-9569A91CBE03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Irrelevant</RootNamespace>
+    <AssemblyName>Irrelvant</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Dice\Plugins\Dice.cs" />
+    <Compile Include="Assets\Dice\Plugins\Die.cs" />
+    <Compile Include="Assets\Dice\scenes\Demo\AppDemo.cs" />
+    <Compile Include="Assets\Dice\Scripts\Dice\Die_d6.cs" />
+    <None Include="Assets\Editor\ApplySplatmap readme.txt" />
+    <None Include="Assets\Editor\ApplySplatmap.js" />
+    <None Include="Assets\Editor\ExportTerrain.js" />
+    <None Include="Assets\Editor\ExportTexture.js" />
+    <None Include="Assets\Editor\Object2Terrain.js" />
+    <Compile Include="Assets\Editor\SetPivot.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\Plugins\iTween.cs" />
+    <None Include="Assets\Resources\Cells\00_Via\Via\Colore Rosso.txt" />
+    <None Include="Assets\Resources\Cells\scenes_list.txt" />
+    <Compile Include="Assets\Resources\Extra GUI Skins\SkinTest.cs" />
+    <Compile Include="Assets\src\Card.cs" />
+    <Compile Include="Assets\src\Cell.cs" />
+    <Compile Include="Assets\src\CharacterSelection.cs" />
+    <Compile Include="Assets\src\CharacterSelector.cs" />
+    <None Include="Assets\src\CharacterSelector.js" />
+    <Compile Include="Assets\src\GameManager.cs" />
+    <Compile Include="Assets\src\GameStatus.cs" />
+    <Compile Include="Assets\src\Group.cs" />
+    <Compile Include="Assets\src\GUIManager.cs" />
+    <Compile Include="Assets\src\LevelLoader.cs" />
+    <Compile Include="Assets\src\LevelManager.cs" />
+    <Compile Include="Assets\src\LocalBuildingCompany.cs" />
+    <None Include="Assets\src\MenuCreator.js" />
+    <None Include="Assets\src\MenuScript.js" />
+    <Compile Include="Assets\src\MoveCamera.cs" />
+    <Compile Include="Assets\src\Pedina.cs" />
+    <Compile Include="Assets\src\Player.cs" />
+    <Compile Include="Assets\src\PlayerMover.cs" />
+    <Compile Include="Assets\src\Property.cs" />
+    <None Include="Assets\src\RotateCamera.js" />
+    <None Include="Assets\src\RotateObjectY.js" />
+    <None Include="Assets\src\RotateObjectZ.js" />
+    <None Include="Assets\src\RotateToCamera.js" />
+    <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+    <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+    <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+    <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+    <None Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+    <None Include="Assets\Standard Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
+    <None Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
+    <None Include="Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
+    <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+    <None Include="Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
+    <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\Popup.cs" />
+    <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+    <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

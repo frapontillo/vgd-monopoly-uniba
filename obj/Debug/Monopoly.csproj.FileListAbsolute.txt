@@ -1,0 +1,2 @@
+Z:\Workspace\Monopoly\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Giuseppe\Desktop\Varie\Università\Sviluppo di videogiochi\Progetto\Monopoly\Monopoly\obj\Debug\ResolveAssemblyReference.cache

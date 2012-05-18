@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-02-18T07:27:32Z</created>
+    <modified>2011-02-18T07:27:32Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.010000"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Asphalt_New_texture-image" name="Asphalt_New_texture">
+      <init_from>file://RoadAsset/Asphalt_New.jpg</init_from>
+    </image>
+    <image id="Concrete_Form_4x8_texture-image" name="Concrete_Form_4x8_texture">
+      <init_from>file://RoadAsset/Concrete_Form_4x8.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="FrontColor" name="FrontColor">
+      <instance_effect url="#FrontColor-fx"/>
+    </material>
+    <material id="Asphalt_New" name="Asphalt_New">
+      <instance_effect url="#Asphalt_New-fx"/>
+    </material>
+    <material id="Color_001" name="Color_001">
+      <instance_effect url="#Color_001-fx"/>
+    </material>
+    <material id="Concrete_Form_4x8" name="Concrete_Form_4x8">
+      <instance_effect url="#Concrete_Form_4x8-fx"/>
+    </material>
+    <material id="Asphalt_New_texture-diffuse-Material" name="Asphalt_New_texture-diffuse-Material">
+      <instance_effect url="#Asphalt_New_texture-diffuse-Material-fx"/>
+    </material>
+    <material id="Concrete_Form_4x8_texture-diffuse-Material" name="Concrete_Form_4x8_texture-diffuse-Material">
+      <instance_effect url="#Concrete_Form_4x8_texture-diffuse-Material-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="FrontColor-fx" name="FrontColor">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.330000  0.330000 0.330000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Asphalt_New-fx" name="Asphalt_New">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.262745  0.235294 0.243137 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.330000  0.330000 0.330000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Color_001-fx" name="Color_001">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.886275  0.886275 0.886275 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.330000  0.330000 0.330000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Concrete_Form_4x8-fx" name="Concrete_Form_4x8">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.654902  0.666667 0.658824 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.330000  0.330000 0.330000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Asphalt_New_texture-diffuse-Material-fx" name="Asphalt_New_texture-diffuse-Material">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Asphalt_New_texture-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Concrete_Form_4x8_texture-diffuse-Material-fx" name="Concrete_Form_4x8_texture-diffuse-Material">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Concrete_Form_4x8_texture-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Mesh1-lib" name="Mesh1Mesh">
+      <mesh>
+        <source id="Mesh1-lib-Position">
+          <float_array id="Mesh1-lib-Position-array" count="288">
+7.776665 0.000000 -150.000000
+2.653243 0.000000 0.000000
+2.653243 0.000000 -150.000000
+7.776665 0.000000 0.000000
+2.653243 0.000000 -150.000000
+2.653243 0.000000 0.000000
+7.776665 0.000000 -150.000000
+7.776665 0.000000 0.000000
+13.686722 0.000000 -150.000000
+8.169982 0.000000 0.000000
+8.169982 0.000000 -150.000000
+13.686722 0.000000 0.000000
+8.169982 0.000000 -150.000000
+8.169982 0.000000 0.000000
+13.686722 0.000000 -150.000000
+13.686722 0.000000 0.000000
+2.653243 0.188913 -150.000000
+0.000000 0.188913 0.000000
+0.000000 0.188913 -150.000000
+2.653243 0.188913 0.000000
+0.000000 0.188913 -150.000000
+0.000000 0.188913 0.000000
+2.653243 0.188913 -150.000000
+2.653243 0.188913 0.000000
+2.653243 0.188913 -150.000000
+0.000000 0.000000 -150.000000
+2.653243 0.000000 -150.000000
+0.000000 0.188913 -150.000000
+2.653243 0.000000 -150.000000
+0.000000 0.000000 -150.000000
+2.653243 0.188913 -150.000000
+0.000000 0.188913 -150.000000
+2.653243 0.188913 -150.000000
+2.653243 0.000000 0.000000
+2.653243 0.188913 0.000000
+2.653243 0.000000 -150.000000
+2.653243 0.188913 0.000000
+2.653243 0.000000 0.000000
+2.653243 0.188913 -150.000000
+2.653243 0.000000 -150.000000
+0.000000 0.188913 0.000000
+2.653243 0.000000 0.000000
+0.000000 0.000000 0.000000
+2.653243 0.188913 0.000000
+0.000000 0.000000 0.000000
+2.653243 0.000000 0.000000
+0.000000 0.188913 0.000000
+2.653243 0.188913 0.000000
+0.000000 0.000000 -150.000000
+0.000000 0.188913 0.000000
+0.000000 0.000000 0.000000
+0.000000 0.188913 -150.000000
+0.000000 0.000000 0.000000
+0.000000 0.188913 0.000000
+0.000000 0.000000 -150.000000
+0.000000 0.188913 -150.000000
+16.106394 0.188913 -150.000000
+13.686722 0.188913 0.000000
+13.686722 0.188913 -150.000000
+16.106394 0.188913 0.000000
+13.686722 0.188913 -150.000000
+13.686722 0.188913 0.000000
+16.106394 0.188913 -150.000000
+16.106394 0.188913 0.000000
+13.686722 0.188913 0.000000
+16.106394 0.000000 0.000000
+13.686722 0.000000 0.000000
+16.106394 0.188913 0.000000
+13.686722 0.000000 0.000000
+16.106394 0.000000 0.000000
+13.686722 0.188913 0.000000
+16.106394 0.188913 0.000000
+13.686722 0.000000 -150.000000
+13.686722 0.188913 0.000000
+13.686722 0.000000 0.000000
+13.686722 0.188913 -150.000000
+13.686722 0.000000 0.000000
+13.686722 0.188913 0.000000
+13.686722 0.000000 -150.000000
+13.686722 0.188913 -150.000000
+16.106394 0.188913 -150.000000
+13.686722 0.000000 -150.000000
+16.106394 0.000000 -150.000000
+13.686722 0.188913 -150.000000
+16.106394 0.000000 -150.000000
+13.686722 0.000000 -150.000000
+16.106394 0.188913 -150.000000
+13.686722 0.188913 -150.000000
+16.106394 0.188913 -150.000000
+16.106394 0.000000 0.000000
+16.106394 0.188913 0.000000
+16.106394 0.000000 -150.000000
+16.106394 0.188913 0.000000
+16.106394 0.000000 0.000000
+16.106394 0.188913 -150.000000
+16.106394 0.000000 -150.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-lib-Position-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh1-lib-Normal0">
+          <float_array id="Mesh1-lib-Normal0-array" count="288">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-lib-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh1-lib-UV0">
+          <float_array id="Mesh1-lib-UV0-array" count="110">
+-306.167929 5905.511811
+-104.458380 0.000000
+-104.458380 5905.511811
+-306.167929 0.000000
+-8.704865 492.125984
+-8.704865 0.000000
+-25.513994 492.125984
+-25.513994 0.000000
+-538.847308 5905.511811
+-321.652844 0.000000
+-321.652844 5905.511811
+-538.847308 0.000000
+-26.804404 492.125984
+-26.804404 0.000000
+-44.903942 492.125984
+-44.903942 0.000000
+0.000000 0.000000
+0.000000 5905.511811
+0.000000 61.515748
+-2.176216 61.515748
+-2.176216 0.000000
+104.458380 7.437500
+104.458380 0.000000
+0.000000 7.437500
+2.176216 0.000000
+2.176216 0.077474
+0.000000 0.077474
+-5905.511811 7.437500
+-5905.511811 0.000000
+-123.031496 0.077474
+-123.031496 0.000000
+-104.458380 7.437500
+-2.176216 0.077474
+5905.511811 0.000000
+5905.511811 7.437500
+123.031496 0.000000
+123.031496 0.077474
+-634.110000 5905.511811
+-634.110000 0.000000
+-11.225986 61.515748
+-11.225986 0.000000
+-13.210625 61.515748
+-13.210625 0.000000
+-538.847308 7.437500
+-634.110000 7.437500
+-11.225986 0.077474
+-13.210625 0.077474
+634.110000 7.437500
+538.847308 0.000000
+634.110000 0.000000
+538.847308 7.437500
+13.210625 0.000000
+11.225986 0.000000
+13.210625 0.077474
+11.225986 0.077474
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh1-lib-UV0-array" count="55" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh1-lib-Vertex">
+          <input semantic="POSITION" source="#Mesh1-lib-Position"/>
+        </vertices>
+        <polygons material="Asphalt_New_texture-diffuse-Material" count="0">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+        </polygons>
+        <polygons material="Concrete_Form_4x8_texture-diffuse-Material" count="0">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+        </polygons>
+        <polygons material="FrontColor" count="26">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>1 1 1 0 0 0 3 3 3</p>
+          <p>8 8 8 9 9 9 10 10 10</p>
+          <p>9 9 9 8 8 8 11 11 11</p>
+          <p>10 10 10 3 3 3 0 0 0</p>
+          <p>3 3 3 10 10 10 9 9 9</p>
+          <p>16 16 2 17 17 16 18 18 17</p>
+          <p>17 17 16 16 16 2 19 19 1</p>
+          <p>24 24 21 25 25 16 26 26 22</p>
+          <p>25 25 16 24 24 21 27 27 23</p>
+          <p>32 32 27 33 33 16 34 34 23</p>
+          <p>33 33 16 32 32 27 35 35 28</p>
+          <p>40 40 23 41 41 1 42 42 16</p>
+          <p>41 41 1 40 40 23 43 43 31</p>
+          <p>48 48 33 49 49 23 50 50 16</p>
+          <p>49 49 23 48 48 33 51 51 34</p>
+          <p>56 56 37 57 57 11 58 58 8</p>
+          <p>57 57 11 56 56 37 59 59 38</p>
+          <p>64 64 43 65 65 38 66 66 11</p>
+          <p>65 65 38 64 64 43 67 67 44</p>
+          <p>72 72 33 73 73 23 74 74 16</p>
+          <p>73 73 23 72 72 33 75 75 34</p>
+          <p>80 80 47 81 81 48 82 82 49</p>
+          <p>81 81 48 80 80 47 83 83 50</p>
+          <p>88 88 27 89 89 16 90 90 23</p>
+          <p>89 89 16 88 88 27 91 91 28</p>
+        </polygons>
+        <polygons material="Asphalt_New" count="4">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+          <p>4 4 4 5 5 5 6 6 6</p>
+          <p>7 7 7 6 6 6 5 5 5</p>
+          <p>12 12 12 13 13 13 14 14 14</p>
+          <p>15 15 15 14 14 14 13 13 13</p>
+        </polygons>
+        <polygons material="Color_001" count="2">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+          <p>6 6 0 7 7 3 12 12 10</p>
+          <p>13 13 9 12 12 10 7 7 3</p>
+        </polygons>
+        <polygons material="Concrete_Form_4x8" count="20">
+          <input semantic="VERTEX" offset="0" source="#Mesh1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh1-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh1-lib-UV0"/>
+          <p>20 20 18 21 21 16 22 22 19</p>
+          <p>23 23 20 22 22 19 21 21 16</p>
+          <p>28 28 24 29 29 16 30 30 25</p>
+          <p>31 31 26 30 30 25 29 29 16</p>
+          <p>36 36 26 37 37 16 38 38 29</p>
+          <p>39 39 30 38 38 29 37 37 16</p>
+          <p>44 44 16 45 45 20 46 46 26</p>
+          <p>47 47 32 46 46 26 45 45 20</p>
+          <p>52 52 16 53 53 26 54 54 35</p>
+          <p>55 55 36 54 54 35 53 53 26</p>
+          <p>60 60 39 61 61 40 62 62 41</p>
+          <p>63 63 42 62 62 41 61 61 40</p>
+          <p>68 68 40 69 69 42 70 70 45</p>
+          <p>71 71 46 70 70 45 69 69 42</p>
+          <p>76 76 16 77 77 26 78 78 35</p>
+          <p>79 79 36 78 78 35 77 77 26</p>
+          <p>84 84 51 85 85 52 86 86 53</p>
+          <p>87 87 54 86 86 53 85 85 52</p>
+          <p>92 92 26 93 93 16 94 94 29</p>
+          <p>95 95 30 94 94 29 93 93 16</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="SceneAmbient-lib" name="SceneAmbientMesh">
+      <technique_common>
+        <ambient>
+          <color>0.400000 0.400000 0.400000</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Model" name="Model">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <node id="Mesh1" name="Mesh1">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <instance_geometry url="#Mesh1-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="Asphalt_New_texture-diffuse-Material" target="#Asphalt_New_texture-diffuse-Material"/>
+                <instance_material symbol="Concrete_Form_4x8_texture-diffuse-Material" target="#Concrete_Form_4x8_texture-diffuse-Material"/>
+                <instance_material symbol="FrontColor" target="#FrontColor"/>
+                <instance_material symbol="Asphalt_New" target="#Asphalt_New"/>
+                <instance_material symbol="Color_001" target="#Color_001"/>
+                <instance_material symbol="Concrete_Form_4x8" target="#Concrete_Form_4x8"/>
+                <instance_material symbol="Asphalt_New_texture-diffuse-Material" target="#Asphalt_New_texture-diffuse-Material"/>
+                <instance_material symbol="Concrete_Form_4x8_texture-diffuse-Material" target="#Concrete_Form_4x8_texture-diffuse-Material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
