@@ -5,17 +5,20 @@ A sample [Unity3D](http://unity3d.com/) videogame demo resembling the old *Itali
 
 ##Authors
 
-Francesco Pontillo
-Giuseppe Marolla
-Matteo Gagliardi
-Ciro Santoro
+ * Francesco Pontillo
+ * Giuseppe Marolla
+ * Matteo Gagliardi
+ * Ciro Santoro
 
-##Usage
+##Usage and compiling
 
 This is a demo videogame, it doesn't compile when using the 32bit version of Unity3D, it is buggy and won't probably work on some situations.
 It doesn't implement any kind of Artificial Intelligence (random, ftw!), it doesn't include any kind of music or sound.
 
 This is our first (and probably last, LOL) attempt at making a videogame, so yes, it may suck big time.
+
+Unity3D crashes while compiling the final .exe, as the 32bit version of the software asks Windows for more than 3 GBs of memory (!!!).
+If you own a 64bit version of Unity and would like to provide us with a final .exe you can make a pull requests with the executable. We'll be eternally grateful! ;) 
 
 ##Disclaimer
 
