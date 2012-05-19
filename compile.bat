@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Unity\Editor\Unity.exe" -batchmode -projectPath "monopoly-uniba" Monopoly -buildWindowsPlayer "monopoly-uniba\bin\Monopoly.exe" -quit
