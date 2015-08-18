@@ -8,7 +8,7 @@ import System.IO;
 
 static function Apply () {
 
-   var rotImage:int = 270;
+   var rotImage:int = 0;
    var ang = rotImage * Mathf.Deg2Rad;
    
    var texture : Texture2D = Selection.activeObject as Texture2D;
@@ -27,5 +27,5 @@ static function Apply () {
    
    
    var bytes = ntexture.EncodeToPNG();
-   File.WriteAllBytes(Application.dataPath + "/exported_texture_270.png", bytes);
+   File.WriteAllBytes(Application.dataPath + "/exported_texture_rot0.png", bytes);
 }
